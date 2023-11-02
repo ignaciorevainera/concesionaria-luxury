@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+
+    --black-100: #171717;
+    --black-200: #141414;
+    --black-300: #121212;
+    --black-400: #0f0f0f;
+    --black-500: #0d0d0d;
+    --black-600: #0a0a0a;
+    --black-700: #080808;
+    --black-800: #050505;
+    --black-900: #030303;
+
+    --grey-400: #b0b0b0;
+    --grey-500: #808080;
+    --grey-600: #5e5e5e;
+    --grey-700: #4d4d4d;
+    --grey-800: #333333;
+    --grey-900: #242424;
+
+    --border-radius: 10px;
+
+    --bs-navbar-height: 10vh
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none !important;
+    text-wrap: balance;
+
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+}
+
+body {
+    background-color: var(--black);
+}
+
+.web {
+    display: flex;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+/* HEADER */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    width: 100%;
+    height: 10vh;
+
+    background: var(--black);
+}
+
+.header__logo {
+    font-family: 'Righteous', sans-serif;
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: 5px;
+}
+
+.header__toggler {
+    display: none;
+
+    background-color: transparent;
+    transition: .2s;
+}
+
+.header__toggler:hover {
+    transform: rotate(90deg);
+}
+
+.header__toggler i::before {
+    font-size: 2rem;
+}
+
+.nav__enlaces {
+    display: flex;
+    gap: .5rem;
+}
+
+.nav__enlace {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header__logo,
+.nav__enlace {
+    color: var(--white);
+    transition: .2s;
+}
+
+.header__logo:hover,
+.nav__enlace:hover {
+    transform: scale(.95);
+}
+
+.header__logo:hover,
+.nav__enlace:hover {
+    color: var(--grey-900);
+}
+
+@media only screen and (max-width: 767px) {
+    .header__toggler {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        position: absolute;
+        z-index: 10;
+        width: 100%;
+        height: 0;
+        top: 10vh;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        background: var(--black-700);
+        transition: all .5s;
+    }
+
+    .nav__enlaces {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 3rem;
+        opacity: 0;
+        transition: all .1s;
+    }
+
+    .nav__enlace {
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .nav.active {
+        height: 20vh;
+        transition: height 0.5s, opacity 0.5s 1s;
+        /* Transición de altura y opacidad con delay */
+    }
+
+    .nav.active .nav__enlaces {
+        opacity: 1;
+        transition: opacity 0.5s 1s;
+        /* Transición de opacidad sin delay */
+    }
+
+    .rotate {
+        transform: rotate(90deg);
+    }
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--black);
+}
+
+.footer__enlaces,
+.footer__redes,
+.footer__copyright {
+    padding: 1rem;
+}
+
+.footer__enlace,
+.footer__redes a,
+.footer__copyright {
+    color: var(--white);
+    font-size: calc(.55em + 1vw);
+    /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 400;
+
+    transition: .2s;
+}
+
+.footer__enlaces,
+.footer__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    border-bottom: 2px solid var(--grey-700);
+}
+
+.footer__enlaces {
+    gap: .7rem;
+}
+
+.footer__redes {
+    gap: 1rem;
+}
+
+.footer__enlace:hover,
+.footer__redes a:hover {
+    color: var(--grey-900);
+    transform: scale(.95);
+}
+
+.footer__copyright {
+    text-align: center;
+    user-select: none;
+}
+
+/* ICONOS */
+
+i {
+    padding: 0;
+    margin: 0;
+}
+
+i::before {
+    padding: 0;
+    margin: 0;
+}
+
+/* BOTONES */
+
+.button {
+    padding: .5rem 0;
+
+    border-radius: var(--border-radius);
+    background-color: var(--black-100);
+
+    transition-property: background-color transform;
+    transition-duration: .5s;
+}
+
+.button:hover {
+    color: var(--black);
+    font-weight: 800;
+    background-color: var(--white);
+}
+
+.button:active {
+    transform: scale(.95);
+    color: var(--white);
+    background-color: var(--grey-800);
+}

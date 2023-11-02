@@ -1,8 +1,4 @@
 /* CAROUSEL */
-.section__carousel {
-    z-index: -1;
-}
-
 .carousel,
 .slide {
     height: 90vh;
@@ -26,8 +22,8 @@
 }
 
 .d-block {
+    opacity: .4;
     object-fit: cover;
-    opacity: .6;
 }
 
 .carousel-caption {
@@ -45,14 +41,14 @@
     font-weight: 300;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
+.carousel__control__icon,
+.carousel__control__icon {
     font-size: 3rem;
     transition: all .5s;
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
+.carousel-control-prev:hover .carousel__control__icon,
+.carousel-control-next:hover .carousel__control__icon {
     transform: scale(.8);
 }
 
@@ -87,29 +83,32 @@
 }
 
 .servicios__texto {
-    height: 50vh;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    overflow: hidden;
 
     gap: 2rem;
     padding: 3rem;
 }
 
 .servicios__titulo {
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1rem + 1vw);
     /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 800;
 }
 
 .servicios__descripcion {
     font-size: calc(.6rem + 1vw);
     /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 500;
 }
 
 .servicios__link {
     color: var(--white);
+    font-size: calc(.8rem + 1vw);
+    font-weight: 400;
 
     display: flex;
     align-items: center;
@@ -191,8 +190,10 @@
 
     padding-bottom: 2rem;
 
+    font-family: 'Aleo', serif;
+
     font-size: 2rem;
-    font-weight: 400;
+    font-weight: 700;
 
     user-select: none;
 }
@@ -309,7 +310,7 @@
     align-items: start;
 
     gap: 2rem;
-    padding: 3rem;
+    padding: calc(3rem + 1vw);
     margin: 0 4rem;
 
     position: absolute;
@@ -319,17 +320,21 @@
 }
 
 .sucursales__banner__titulo {
-    font-size: calc(2rem + 1vw);
+    font-size: calc(1rem + 1vw);
     /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 800;
 }
 
 .sucursales__banner__descripcion {
     font-size: calc(.6rem + 1vw);
     /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 500;
 }
 
 .sucursales__banner__button {
     color: var(--white);
+    font-size: calc(.8rem + 1vw);
+    font-weight: 400;
     transition: all .2s;
 }
 

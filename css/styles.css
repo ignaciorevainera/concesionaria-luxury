@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Righteous&display=swap');
 
 :root {
     --white: #FFFFFF;
@@ -22,8 +22,6 @@
     --grey-900: #242424;
 
     --border-radius: 10px;
-
-    --bs-navbar-height: 10vh
 }
 
 * {
@@ -35,19 +33,21 @@
     text-decoration: none !important;
     text-wrap: balance;
 
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: var(--white);
 }
 
 body {
     background-color: var(--black);
-}
 
-.web {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+}
 
-    gap: 1rem;
+.main {
+    z-index: 100;
+    flex-grow: 1;
 }
 
 /* HEADER */
@@ -56,8 +56,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 3rem;
-    width: 100%;
+    align-items: center;
+    padding: 0 2rem;
     height: 10vh;
 
     background: var(--black);
@@ -65,16 +65,16 @@ body {
 
 .header__logo {
     font-family: 'Righteous', sans-serif;
-    font-size: 2rem;
+    font-size: calc(1.5rem + 1vw);
     font-weight: 1000;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .header__toggler {
     display: none;
 
     background-color: transparent;
-    transition: .2s;
+    transition: all .5s;
 }
 
 .header__toggler:hover {
@@ -82,18 +82,18 @@ body {
 }
 
 .header__toggler i::before {
-    font-size: 2rem;
+    font-size: calc(1.5rem + 1vw);
 }
 
 .nav__enlaces {
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 .nav__enlace {
     display: block;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .header__logo,
@@ -104,18 +104,13 @@ body {
 
 .header__logo:hover,
 .nav__enlace:hover {
-    transform: scale(.95);
-}
-
-.header__logo:hover,
-.nav__enlace:hover {
     color: var(--grey-900);
+    transform: scale(.95);
 }
 
 @media only screen and (max-width: 767px) {
     .header__toggler {
         display: block;
-        cursor: pointer;
     }
 
     .nav {
@@ -129,7 +124,6 @@ body {
         top: 10vh;
         left: 0;
         right: 0;
-        margin: 0 auto;
         background: var(--black-700);
         transition: all .5s;
     }
@@ -138,19 +132,15 @@ body {
         display: flex;
         flex-direction: column;
         align-items: start;
-        padding-left: 3rem;
+        padding-left: 2rem;
         opacity: 0;
         transition: all .1s;
     }
 
-    .nav__enlace {
-        font-size: 1rem;
-        text-align: start;
-    }
-
     .nav.active {
-        height: 20vh;
-        transition: height 0.5s, opacity 0.5s 1s;
+        z-index: 1000;
+        height: 15rem;
+        transition: all 0.5s, opacity 0.5s 1s;
         /* Transición de altura y opacidad con delay */
     }
 
@@ -168,6 +158,9 @@ body {
 /* FOOTER */
 
 .footer {
+    position: relative;
+    z-index: 10;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,14 +172,15 @@ body {
 .footer__enlaces,
 .footer__redes,
 .footer__copyright {
-    padding: 1rem;
+    padding: 1rem 0;
+    margin: 0 1rem;
 }
 
 .footer__enlace,
 .footer__redes a,
 .footer__copyright {
     color: var(--white);
-    font-size: calc(.55em + 1vw);
+    font-size: calc(.4em + 1vw);
     /* Con esto hacemos el tamaño del texto responsive */
     font-weight: 400;
 
@@ -238,6 +232,7 @@ i::before {
 /* BOTONES */
 
 .button {
+    color: var(--white);
     padding: .5rem 0;
 
     border-radius: var(--border-radius);

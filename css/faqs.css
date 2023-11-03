@@ -30,6 +30,7 @@
 }
 
 .accordion-item {
+    border: 2px solid var(--grey-600);
     background-color: var(--black);
 }
 

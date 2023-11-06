@@ -1,0 +1,76 @@
+.servicios__banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios__banner__img {
+    width: 100%;
+}
+
+.servicios__banner__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--black);
+}
+
+.servicios__main {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.card__servicios {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    background-color: var(--black-500);
+    border-radius: var(--border-radius);
+
+    transition: all .5s;
+}
+
+.card__icon {
+    font-size: calc(5em + 1vw);
+    /* Con esto hacemos el tamaño del texto responsive */
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    gap: 1rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.card__nombre {
+    font-size: calc(1em + 1vw);
+    /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 800;
+    text-align: start;
+}
+
+.card__descripcion {
+    font-size: calc(.8em + 1vw);
+    /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 400;
+}
+
+.card__beneficios {
+    font-size: calc(.7em + 1vw);
+    /* Con esto hacemos el tamaño del texto responsive */
+    font-weight: 400;
+}
+
+.card__servicios:hover {
+    transform: scale(.95);
+}

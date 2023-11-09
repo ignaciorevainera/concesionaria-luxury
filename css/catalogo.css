@@ -1,0 +1,138 @@
+.catalogo__banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.catalogo__banner__img {
+    width: 100%;
+}
+
+.catalogo__banner__texto {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: var(--black);
+}
+
+.catalogo__section {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+
+    gap: 1rem;
+    padding: 0 1rem;
+}
+
+.card__catalogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+    background-color: var(--black-500);
+    border-radius: var(--border-radius);
+
+    transition: all .2s;
+}
+
+.card__img {
+    border-radius: var(--border-radius);
+}
+
+.card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 100%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+
+    gap: .2rem;
+}
+
+.card__footer {
+    display: flex;
+    flex-direction: column;
+
+    gap: .5rem;
+}
+
+.card__nombre {
+    font-size: var(--font-size-fluid-1);
+    font-weight: 800;
+    text-align: start;
+}
+
+.card__categoria {
+    font-size: var(--font-size-fluid-0);
+    font-weight: 400;
+}
+
+.card__precio {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: var(--font-size-fluid-1);
+    font-weight: 600;
+}
+
+.card__catalogo:hover {
+    transform: scale(.95);
+}
+
+#contenedor #deportivo:checked~.catalogo__section .superdeportivo,
+#contenedor #deportivo:checked~.catalogo__section .suv,
+#contenedor #deportivo:checked~.catalogo__section .pickUp,
+#contenedor #deportivo:checked~.catalogo__section .coupe,
+#contenedor #deportivo:checked~.catalogo__section .rally {
+    display: none;
+}
+
+#contenedor #superdeportivo:checked~.catalogo__section .deportivo,
+#contenedor #superdeportivo:checked~.catalogo__section .suv,
+#contenedor #superdeportivo:checked~.catalogo__section .pickUp,
+#contenedor #superdeportivo:checked~.catalogo__section .coupe,
+#contenedor #superdeportivo:checked~.catalogo__section .rally {
+    display: none;
+}
+
+#contenedor #suv:checked~.catalogo__section .deportivo,
+#contenedor #suv:checked~.catalogo__section .superdeportivo,
+#contenedor #suv:checked~.catalogo__section .pickUp,
+#contenedor #suv:checked~.catalogo__section .coupe,
+#contenedor #suv:checked~.catalogo__section .rally {
+    display: none;
+}
+
+#contenedor #pickUp:checked~.catalogo__section .deportivo,
+#contenedor #pickUp:checked~.catalogo__section .superdeportivo,
+#contenedor #pickUp:checked~.catalogo__section .suv,
+#contenedor #pickUp:checked~.catalogo__section .coupe,
+#contenedor #pickUp:checked~.catalogo__section .rally {
+    display: none;
+}
+
+#contenedor #coupe:checked~.catalogo__section .deportivo,
+#contenedor #coupe:checked~.catalogo__section .superdeportivo,
+#contenedor #coupe:checked~.catalogo__section .suv,
+#contenedor #coupe:checked~.catalogo__section .pickUp,
+#contenedor #coupe:checked~.catalogo__section .rally {
+    display: none;
+}
+
+#contenedor #rally:checked~.catalogo__section .deportivo,
+#contenedor #rally:checked~.catalogo__section .superdeportivo,
+#contenedor #rally:checked~.catalogo__section .suv,
+#contenedor #rally:checked~.catalogo__section .pickUp,
+#contenedor #rally:checked~.catalogo__section .coupe {
+    display: none;
+}

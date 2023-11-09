@@ -28,46 +28,47 @@
 .card__servicios {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: center;
 
+    padding: 1rem;
     background-color: var(--black-500);
     border-radius: var(--border-radius);
 
-    transition: all .5s;
+    transition: all .2s;
+}
+
+.card__servicios .button {
+    align-self: stretch;
 }
 
 .card__icon {
     font-size: calc(5em + 1vw);
-    /* Con esto hacemos el tamaño del texto responsive */
+
 }
 
 .card__body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: start;
 
     height: 100%;
     gap: 1rem;
-    padding: 0 1rem 1rem 1rem;
 }
 
 .card__nombre {
-    font-size: calc(1em + 1vw);
-    /* Con esto hacemos el tamaño del texto responsive */
+    font-size: var(--font-size-fluid-2);
     font-weight: 800;
     text-align: start;
 }
 
 .card__descripcion {
-    font-size: calc(.8em + 1vw);
-    /* Con esto hacemos el tamaño del texto responsive */
+    font-size: var(--font-size-fluid-1);
     font-weight: 400;
 }
 
 .card__beneficios {
-    font-size: calc(.7em + 1vw);
-    /* Con esto hacemos el tamaño del texto responsive */
+    font-size: var(--font-size-fluid-1);
     font-weight: 400;
 }
 

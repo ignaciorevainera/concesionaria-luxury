@@ -18,7 +18,7 @@
 
 .faqs__banner__enlace {
     color: var(--white);
-    transition: all .5s;
+    transition: all .2s;
 }
 
 .faqs__banner__enlace:hover {

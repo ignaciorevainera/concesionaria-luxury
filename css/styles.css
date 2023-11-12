@@ -177,6 +177,11 @@ body {
 
 /* TEXTO */
 
+.banner {
+    display: flex;
+    flex-direction: column;
+}
+
 .texto {
     display: flex;
     flex-direction: column;

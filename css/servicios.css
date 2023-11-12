@@ -1,8 +1,3 @@
-.servicios__banner {
-    display: flex;
-    flex-direction: column;
-}
-
 .container__cards {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
 }

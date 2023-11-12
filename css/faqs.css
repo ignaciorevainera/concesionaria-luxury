@@ -1,8 +1,3 @@
-.faqs__banner {
-    display: flex;
-    flex-direction: column;
-}
-
 .accordion {
     padding: 0 1rem;
 }

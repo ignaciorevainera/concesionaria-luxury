@@ -32,7 +32,8 @@ function crearCardCatalogo(vehiculo) {
 }
 
 function mostrarCatalogo(arrayVehiculos) {
-    catalogo.innerHTML = arrayVehiculos.map(vehiculo => crearCardCatalogo(vehiculo)).join("");
+    const autosFiltrados = arrayVehiculos.filter(vehiculo => vehiculo.precio > 95000);
+    catalogo.innerHTML = autosFiltrados.map(vehiculo => crearCardCatalogo(vehiculo)).join("");
 }
 
 obtenerDatos();

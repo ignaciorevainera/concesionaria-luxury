@@ -47,11 +47,11 @@
     <!-- APERTURA DEL MAIN -->
     <main class="main">
         <section class="catalogo__banner">
-            <img src="../assets/luxury/catalogo.jpg" alt="faqs-banner" class="catalogo__banner__img">
+            <img src="../assets/luxury/catalogo.jpg" alt="faqs-banner" class="img">
 
-            <div class="catalogo__banner__texto">
-                <h2 class="catalogo__banner__titulo">Catalogo</h2>
-                <p>
+            <div class="texto">
+                <h2 class="titulo">Catalogo</h2>
+                <p class="parrafo">
                     Bienvenido a la joya de la corona de Luxury: nuestra exclusiva página de catálogo de vehículos.
                     Aquí, te invitamos a explorar nuestra impresionante colección de automóviles de lujo cuidadosamente
                     seleccionados. Cada vehículo es una obra maestra de diseño, innovación y rendimiento. Desde
@@ -62,336 +62,25 @@
             </div>
         </section>
 
-        <section id="contenedor">
-            <input type="radio" name="filtro" id="todos" checked>
-            <label for="todos">Todos</label>
-            <input type="radio" name="filtro" id="deportivo">
-            <label for="deportivo">Deportivo</label>
-            <input type="radio" name="filtro" id="superdeportivo">
-            <label for="superdeportivo">Superdeportivo</label>
-            <input type="radio" name="filtro" id="suv">
-            <label for="suv">SUV</label>
-            <input type="radio" name="filtro" id="pickUp">
-            <label for="pickUp">Pick Up</label>
-            <input type="radio" name="filtro" id="coupe">
-            <label for="coupe">Coupé</label>
-            <input type="radio" name="filtro" id="rally">
-            <label for="rally">Rally</label>
+        <section id="filtros">
+            <input class="filtro" type="radio" name="filtros" id="todos" value="todos" checked>
+            <label class="button" for="todos">Todos</label>
+            <input class="filtro" type="radio" name="filtros" id="convertible" value="Convertible">
+            <label class="button" for="convertible">Convertible</label>
+            <input class="filtro" type="radio" name="filtros" id="coupe" value="Coupé">
+            <label class="button" for="coupe">Coupé</label>
+            <input class="filtro" type="radio" name="filtros" id="sedan" value="Sedán">
+            <label class="button" for="sedan">Sedán</label>
+            <input class="filtro" type="radio" name="filtros" id="hatchback" value="Hatchback">
+            <label class="button" for="hatchback">Hatchback</label>
+            <input class="filtro" type="radio" name="filtros" id="suv" value="SUV">
+            <label class="button" for="suv">SUV</label>
+            <input class="filtro" type="radio" name="filtros" id="pickUp" value="Pick Up">
+            <label class="button" for="pickUp">Pick Up</label>
+        </section>
 
-            <section class="catalogo__section">
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (8).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Ferrari Roma Spider</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s45.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (19).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Ferrari 488</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s120.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (23).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Dodge Challenger SRT</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s35.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (7).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Porsche 718 Boxster Style Edition</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s55.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (6).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Hennessey Cadillac CT5-V Blackwing H1000</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s239.900</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (4).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Bugatti Chiron Pur Sport</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s139.900</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo deportivo">
-                    <img src="../assets/catalogo/catalogo (3).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Bentley Mulliner Bacalar</h3>
-                            <h4 class="card__categoria">Deportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s900.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo superdeportivo">
-                    <img src="../assets/catalogo/catalogo (11).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Ferrari SF90 XX Stradale</h3>
-                            <h4 class="card__categoria">Superdeportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s145.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo superdeportivo">
-                    <img src="../assets/catalogo/catalogo (24).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Lamborghini Urus</h3>
-                            <h4 class="card__categoria">Superdeportivo</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s100.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo suv">
-                    <img src="../assets/catalogo/catalogo (5).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Honda Prologue Elite</h3>
-                            <h4 class="card__categoria">SUV</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$32.900.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo suv">
-                    <img src="../assets/catalogo/catalogo (1).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Chevrolet Traverse High Country</h3>
-                            <h4 class="card__categoria">SUV</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s100.900</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo suv">
-                    <img src="../assets/catalogo/catalogo (13).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Mazda CX-5 Skyactiv-D</h3>
-                            <h4 class="card__categoria">SUV</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s120.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo suv">
-                    <img src="../assets/catalogo/catalogo (14).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Mercedes-AMG EQE 53</h3>
-                            <h4 class="card__categoria">SUV</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s200.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo suv">
-                    <img src="../assets/catalogo/catalogo (15).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Mercedes-AMG EQE</h3>
-                            <h4 class="card__categoria">SUV</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s250.100</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo suv">
-                    <img src="../assets/catalogo/catalogo (12).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Citroen C5 Aircross</h3>
-                            <h4 class="card__categoria">SUV</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">u$s339.900</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo pickUp">
-                    <img src="../assets/catalogo/catalogo (9).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Toyota Hilux GR Sport II Double Cab</h3>
-                            <h4 class="card__categoria">Pick Up</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$60.395.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo coupe">
-                    <img src="../assets/catalogo/catalogo (2).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Audi SQ8 TFSI</h3>
-                            <h4 class="card__categoria">Coupé</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$120.900.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo coupe">
-                    <img src="../assets/catalogo/catalogo (18).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Porsche Taycan GTS</h3>
-                            <h4 class="card__categoria">Coupé</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$32.900.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo coupe">
-                    <img src="../assets/catalogo/catalogo (21).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">BMW 330i M</h3>
-                            <h4 class="card__categoria">Coupé</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$40.500.500</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo coupe">
-                    <img src="../assets/catalogo/catalogo (22).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">BMW 760i Xdrive M</h3>
-                            <h4 class="card__categoria">Coupé</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$50.900.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo coupe">
-                    <img src="../assets/catalogo/catalogo (20).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Jaguar F-Type R</h3>
-                            <h4 class="card__categoria">Coupé</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$45.300.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo rally">
-                    <img src="../assets/catalogo/catalogo (10).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Ford Mustang Mach-E Rally</h3>
-                            <h4 class="card__categoria">Rally</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$87.900.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo rally">
-                    <img src="../assets/catalogo/catalogo (16).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Nissan Juke Rally Tribute Concept</h3>
-                            <h4 class="card__categoria">Rally</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$41.500.000</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="card__catalogo rally">
-                    <img src="../assets/catalogo/catalogo (17).jpg" alt="card__img" class="card__img">
-                    <div class="card__body">
-                        <div class="card__info">
-                            <h3 class="card__nombre">Skoda Fabia RS Rally2</h3>
-                            <h4 class="card__categoria">Rally</h4>
-                        </div>
-                        <div class="card__footer">
-                            <p class="card__precio">$20.600.00</p>
-                            <button class="button">Cotizar</button>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <section class="container__cards" id="catalogo">
+            <!-- MEDIANTE JS DESPLIEGO EL CATÁLOGO -->
         </section>
     </main>
     <!-- CIERRE DEL MAIN -->
@@ -420,7 +109,8 @@
     <!-- CIERRE DEL FOOTER -->
 
     <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="./js/script.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="../js/catalogo.js"></script>
 
     <!-- BOOTSTRAP SCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"

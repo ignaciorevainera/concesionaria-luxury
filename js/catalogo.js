@@ -1,4 +1,5 @@
 const catalogo = document.getElementById("catalogo");
+const filtros = document.getElementById("filtros");
 
 let data = [];
 
@@ -35,34 +36,17 @@ function mostrarCatalogo(arrayVehiculos) {
     catalogo.innerHTML = arrayVehiculos.map(vehiculo => crearCardCatalogo(vehiculo)).join("");
 }
 
+function filtrar(e) {
+    if (e.target.classList.contains("filtro")) {
+        if (e.target.value === "todos") {
+            mostrarCatalogo(data);
+        } else {
+            const valor = e.target.value;
+            const filtro = data.filter(vehiculo => vehiculo.categoria === valor);
+            mostrarCatalogo(filtro);
+        }
+    }
+}
+
 obtenerDatos();
-
-const concesionarias = {
-    Audi: {
-        boton: document.getElementById("concesionariaAudi"),
-        mapa: document.getElementById("mapaConcesionariaAudi"),
-        bandera: document.getElementById("banderaArgentina")
-    },
-    Maserati: {
-        boton: document.getElementById("concesionariaMaserati"),
-        mapa: document.getElementById("mapaConcesionariaMaserati"),
-        bandera: document.getElementById("banderaItalia")
-    },
-    McLaren: {
-        boton: document.getElementById("concesionariaMcLaren"),
-        mapa: document.getElementById("mapaConcesionariaMcLaren"),
-        bandera: document.getElementById("banderaFrancia")
-    }
-};
-
-function activarConcesionaria(concesionaria) {
-    for (const i in concesionarias) {
-        const { mapa, bandera } = concesionarias[i];
-        mapa.classList.toggle("visible", i === concesionaria);
-        bandera.classList.toggle("activo", i === concesionaria);
-    }
-}
-
-for (const i in concesionarias) {
-    concesionarias[i].boton.addEventListener("click", () => activarConcesionaria(i));
-}
+filtros.addEventListener("click", filtrar);

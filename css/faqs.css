@@ -3,28 +3,6 @@
     flex-direction: column;
 }
 
-.faqs__banner__img {
-    width: 100%;
-}
-
-.faqs__banner__texto {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 1rem;
-    padding: 2rem;
-    background-color: var(--black);
-}
-
-.faqs__banner__enlace {
-    color: var(--white);
-    transition: all .2s;
-}
-
-.faqs__banner__enlace:hover {
-    transform: translateX(1rem);
-}
-
 .accordion {
     padding: 0 1rem;
 }
@@ -49,7 +27,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .faqs__footer * {

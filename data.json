@@ -1,0 +1,191 @@
+[
+    {
+        "marca": "Ferrari",
+        "modelo": "Roma Spider",
+        "categoria": "Convertible",
+        "precio": 45000,
+        "imagen": "../assets/catalogo/catalogo (8).jpg"
+    },
+    {
+        "marca": "Ferrari",
+        "modelo": "488",
+        "categoria": "Coupé",
+        "precio": 50000,
+        "imagen": "../assets/catalogo/catalogo (19).jpg"
+    },
+    {
+        "marca": "Dodge",
+        "modelo": "Challenger SRT",
+        "categoria": "Coupé",
+        "precio": 30000,
+        "imagen": "../assets/catalogo/catalogo (23).jpg"
+    },
+    {
+        "marca": "Porsche",
+        "modelo": "718 Boxster Style Edition",
+        "categoria": "Convertible",
+        "precio": 34000,
+        "imagen": "../assets/catalogo/catalogo (7).jpg"
+    },
+    {
+        "marca": "Hennessey",
+        "modelo": "Cadillac CT5-V Blackwing H1000",
+        "categoria": "Sedán",
+        "precio": 100000,
+        "imagen": "../assets/catalogo/catalogo (6).jpg"
+    },
+    {
+        "marca": "Bugatti",
+        "modelo": "Chiron Pur Sport",
+        "categoria": "Coupé",
+        "precio": 70000,
+        "imagen": "../assets/catalogo/catalogo (4).jpg"
+    },
+    {
+        "marca": "Bentley",
+        "modelo": "Mulliner Bacalar",
+        "categoria": "Convertible",
+        "precio": 100000,
+        "imagen": "../assets/catalogo/catalogo (3).jpg"
+    },
+    {
+        "marca": "Ferrari",
+        "modelo": "SF90 XX Stradale",
+        "categoria": "Coupé",
+        "precio": 150000,
+        "imagen": "../assets/catalogo/catalogo (11).jpg"
+    },
+    {
+        "marca": "Lamborghini",
+        "modelo": "Urus",
+        "categoria": "SUV",
+        "precio": 95000,
+        "imagen": "../assets/catalogo/catalogo (24).jpg"
+    },
+    {
+        "marca": "Honda",
+        "modelo": "Prologue Elite",
+        "categoria": "SUV",
+        "precio": 65000,
+        "imagen": "../assets/catalogo/catalogo (5).jpg"
+    },
+    {
+        "marca": "Chevrolet",
+        "modelo": "Traverse High Country",
+        "categoria": "SUV",
+        "precio": 46000,
+        "imagen": "../assets/catalogo/catalogo (1).jpg"
+    },
+    {
+        "marca": "Mazda",
+        "modelo": "CX-5 Skyactiv-D",
+        "categoria": "SUV",
+        "precio": 70000,
+        "imagen": "../assets/catalogo/catalogo (13).jpg"
+    },
+    {
+        "marca": "Mercedes",
+        "modelo": "AMG EQE",
+        "categoria": "Sedán",
+        "precio": 98000,
+        "imagen": "../assets/catalogo/catalogo (14).jpg"
+    },
+    {
+        "marca": "Citroen",
+        "modelo": "C5 Aircross",
+        "categoria": "SUV",
+        "precio": 120000,
+        "imagen": "../assets/catalogo/catalogo (12).jpg"
+    },
+    {
+        "marca": "Toyota",
+        "modelo": "Hilux",
+        "categoria": "Pick Up",
+        "precio": 54000,
+        "imagen": "../assets/catalogo/catalogo (9).jpg"
+    },
+    {
+        "marca": "Audi",
+        "modelo": "SQ8 TFSI",
+        "categoria": "SUV",
+        "precio": 100000,
+        "imagen": "../assets/catalogo/catalogo (2).jpg"
+    },
+    {
+        "marca": "Porsche",
+        "modelo": "Taycan GTS",
+        "categoria": "Sedán",
+        "precio": 120000,
+        "imagen": "../assets/catalogo/catalogo (18).jpg"
+    },
+    {
+        "marca": "BMW",
+        "modelo": "330i M",
+        "categoria": "Sedán",
+        "precio": 45000,
+        "imagen": "../assets/catalogo/catalogo (21).jpg"
+    },
+    {
+        "marca": "BMW",
+        "modelo": "760i Xdrive M",
+        "categoria": "Sedán",
+        "precio": 65000,
+        "imagen": "../assets/catalogo/catalogo (22).jpg"
+    },
+    {
+        "marca": "Jaguar",
+        "modelo": "F-Type R",
+        "categoria": "Coupé",
+        "precio": 76000,
+        "imagen": "../assets/catalogo/catalogo (20).jpg"
+    },
+    {
+        "marca": "Ford",
+        "modelo": "Mustang Mach-E Rally",
+        "categoria": "SUV",
+        "precio": 43000,
+        "imagen": "../assets/catalogo/catalogo (10).jpg"
+    },
+    {
+        "marca": "Nissan",
+        "modelo": "Juke Rally Tribute Concept",
+        "categoria": "SUV",
+        "precio": 50000,
+        "imagen": "../assets/catalogo/catalogo (16).jpg"
+    },
+    {
+        "marca": "Skoda",
+        "modelo": "Fabia RS Rally2",
+        "categoria": "Hatchback",
+        "precio": 64000,
+        "imagen": "../assets/catalogo/catalogo (17).jpg"
+    },
+    {
+        "marca": "Alfa Romeo",
+        "modelo": "Giulia",
+        "categoria": "Sedán",
+        "precio": 100000,
+        "imagen": "../assets/catalogo/catalogo (15).jpg"
+    },
+    {
+        "marca": "Lamborghini",
+        "modelo": "Huracan",
+        "categoria": "Coupé",
+        "precio": 200000,
+        "imagen": "../assets/catalogo/catalogo (27).jpg"
+    },
+    {
+        "marca": "Porsche",
+        "modelo": "Taycan",
+        "categoria": "Sedán",
+        "precio": 100000,
+        "imagen": "../assets/catalogo/catalogo (25).jpg"
+    },
+    {
+        "marca": "Volkswagen",
+        "modelo": "Tiguan",
+        "categoria": "SUV",
+        "precio": 100000,
+        "imagen": "../assets/catalogo/catalogo (26).jpg"
+    }
+]

@@ -29,293 +29,32 @@
 .carousel-caption h5 {
     color: var(--white);
     font-size: var(--font-size-fluid-3);
-    font-weight: 800;
 }
 
 .carousel-caption p {
-    font-size: var(--font-size-fluid-1);
-    font-weight: 300;
-}
-
-/* SECTION SERVICIOS */
-
-.section__servicios {
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.servicios__picture {
-    height: 50vh;
-    margin: 2rem;
-
-    border-radius: var(--border-radius);
-
-    overflow: hidden;
-}
-
-.servicios__picture:hover .servicios__img {
-    transform: scale(1.2);
-}
-
-.servicios__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-
-    transition: all .2s;
-}
-
-.servicios__texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    overflow: hidden;
-
-    gap: 2rem;
-}
-
-.servicios__titulo {
-    font-size: var(--font-size-fluid-2);
-
-    font-weight: 800;
-}
-
-.servicios__descripcion {
-    font-size: var(--font-size-fluid-0);
-
-    font-weight: 500;
-}
-
-.servicios__link {
     color: var(--white);
-    font-size: var(--font-size-fluid-1);
-    font-weight: 400;
-
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-
-    transition: all .2s;
+    font-size: var(--font-size-fluid-2);
 }
 
 /* SECTION CATÁLOGO */
 
-.section__catalogo {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-
-    gap: 5rem;
-
-    overflow: hidden;
-}
-
+.section__catalogo,
 .catalogo__banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    height: 40vh;
-
-    position: relative;
-    overflow: hidden;
-}
-
-.catalogo__banner::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-image: linear-gradient(to bottom, var(--black), transparent);
-}
-
-.catalogo__banner::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    background-image: linear-gradient(to top, var(--black), transparent);
-}
-
-.section__catalogo:hover .catalogo__banner__img {
-    transform: scale(1.2);
-}
-
-.catalogo__banner__img {
-    position: absolute;
-    z-index: -1;
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    opacity: .8;
-
-    transition: all .2s;
 }
 
 .catalogo__banner__titulo {
-    position: relative;
-    z-index: 10;
-
-    font-family: 'Aleo', serif;
-
-    font-size: var(--font-size-fluid-2);
-    font-weight: 700;
-
-    user-select: none;
-}
-
-.catalogo__main {
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
-
-    gap: 1rem;
-    padding: 0 1rem;
-}
-
-.card__catalogo {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-
-    background-color: var(--black-500);
-    border-radius: var(--border-radius);
-
-    transition: all .2s;
-}
-
-.card__img {
-    border-radius: var(--border-radius);
-}
-
-.card__body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    height: 100%;
-    padding: 1rem;
-    gap: 1rem;
-}
-
-.card__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-
-    gap: .2rem;
-}
-
-.card__footer {
-    display: flex;
-    flex-direction: column;
-
-    gap: .5rem;
-}
-
-.card__nombre {
-    font-size: var(--font-size-fluid-1);
-    font-weight: 800;
-    text-align: start;
-}
-
-.card__categoria {
-    font-size: var(--font-size-fluid-0);
-    font-weight: 400;
-}
-
-.card__precio {
-    margin: 0;
-    padding: 0;
     text-align: center;
-    font-size: var(--font-size-fluid-1);
-    font-weight: 600;
-}
-
-.card__catalogo:hover {
-    transform: scale(.95);
+    margin: 1rem .5rem 0 .5rem;
 }
 
 /* SECTION SUCURSALES */
 
-.section__sucursales {
-    display: flex;
-    flex-direction: column;
-}
-
+.section__sucursales,
 .sucursales__banner {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    position: relative;
-    height: 100vh;
-
-    overflow: hidden;
-}
-
-.sucursales__banner:hover .sucursales__banner__img {
-    transform: scale(1.2);
-}
-
-.sucursales__banner__img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-    transition: all .2s;
-}
-
-.sucursales__banner__texto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-
-    gap: 2rem;
-    margin: 0 4rem;
-
-    position: absolute;
-    bottom: 6rem;
-
-    background-color: var(--black);
-}
-
-.sucursales__banner__titulo {
-    font-size: var(--font-size-fluid-3);
-
-    font-weight: 800;
-}
-
-.sucursales__banner__descripcion {
-    font-size: var(--font-size-fluid-1);
-
-    font-weight: 500;
-}
-
-.sucursales__banner__button {
-    color: var(--white);
-    font-size: var(--font-size-fluid-2);
-    font-weight: 400;
-    transition: all .2s;
-}
-
-.sucursales__banner__button:hover,
-.sucursales__banner__button:active {
-    padding-left: 1.2rem;
 }
 
 .sucursales__main {

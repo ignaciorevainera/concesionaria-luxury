@@ -38,12 +38,6 @@
 
 /* SECTION CATÁLOGO */
 
-.section__catalogo,
-.catalogo__banner {
-    display: flex;
-    flex-direction: column;
-}
-
 .catalogo__banner__titulo {
     text-align: center;
     margin: 1rem .5rem 0 .5rem;
@@ -51,16 +45,14 @@
 
 /* SECTION SUCURSALES */
 
-.section__sucursales,
-.sucursales__banner {
+.sucursales__main {
     display: flex;
     flex-direction: column;
 }
 
-.sucursales__main {
+.sucursales__buttons {
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .sucursales__button {
@@ -91,7 +83,7 @@
 
 .sucursales__mapa {
     width: 100%;
-    height: 100%;
+    height: 50vh;
     display: none;
 }
 
@@ -102,4 +94,46 @@
 
 .visible {
     display: block;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 768px) {
+    .article__servicios {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .article__servicios__texto {
+        max-width: 50%;
+    }
+
+    .catalogo__banner__img {
+        max-height: 40vh;
+    }
+
+    .sucursales__main {
+        flex-direction: row;
+    }
+
+    .sucursales__banner {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sucursales__banner__img {
+        max-height: initial;
+    }
+
+    .sucursales__banner__texto {
+        max-width: 50%;
+    }
+
+    .sucursales__buttons {
+        justify-content: space-between;
+    }
+
+    .sucursales__bandera {
+        width: 100%;
+    }
 }

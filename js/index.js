@@ -24,7 +24,7 @@ function crearCardCatalogo(vehiculo) {
             </div>
             <div class="card__footer">
                 <p class="card__precio">u$s${precio}</p>
-                <button class="button">Cotizar</button>
+                <a class="button" href="./html/contacto.html" target="_blank" rel="noopener noreferrer">Cotizar</a>
             </div>
         </div>
     </div>

@@ -1,7 +1,7 @@
 /* CAROUSEL */
 .carousel,
 .slide {
-    height: 92vh;
+    height: 100vh;
 }
 
 #carouselIndicatorButton {
@@ -26,16 +26,6 @@
     top: 70%;
 }
 
-.carousel-caption h5 {
-    color: var(--white);
-    font-size: var(--font-size-fluid-3);
-}
-
-.carousel-caption p {
-    color: var(--white);
-    font-size: var(--font-size-fluid-2);
-}
-
 /* SECTION SERVICIOS */
 
 .section__servicios {
@@ -52,9 +42,17 @@
     gap: 1rem;
 }
 
-.catalogo__banner__titulo {
+.section__catalogo__titulo {
+    margin: 0;
     text-align: center;
-    margin: 1rem .5rem 0 .5rem;
+    color: var(--white);
+    font-size: var(--font-size-fluid-2);
+    font-weight: 700;
+
+    padding: .5rem 1rem;
+
+    border-radius: var(--border-radius);
+    background-color: var(--black-100);
 }
 
 /* SECTION SUCURSALES */
@@ -130,10 +128,6 @@
 
     .article__servicios__texto {
         max-width: 50%;
-    }
-
-    .catalogo__banner__img {
-        max-height: 40vh;
     }
 
     .sucursales__main {

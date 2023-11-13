@@ -84,12 +84,12 @@
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="prev">
+                        data-bs-slide="prev" aria-label="prev">
                         <span class="bi bi-caret-left-fill carousel__control__icon" aria-hidden="true"></span>
                         <span class="visually-hidden"></span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide="next">
+                        data-bs-slide="next" aria-label="next">
                         <span class="bi bi-caret-right-fill carousel__control__icon" aria-hidden="true"></span>
                         <span class="visually-hidden"></span>
                     </button>
@@ -100,7 +100,7 @@
             <!-- APERTURA SECTION SERVICIOS -->
             <section class="section__servicios">
                 <article class="article__servicios">
-                    <img src="./assets/luxury/service.jpg" alt="article__servicios" class="img">
+                    <img src="./assets/luxury/service.jpg" alt="servicios-service" class="img">
 
                     <div class="texto article__servicios__texto">
                         <h2 class="titulo">Service</h2>
@@ -115,7 +115,7 @@
                 </article>
 
                 <article class="article__servicios">
-                    <img src="./assets/luxury/reparacion.jpg" alt="article__servicios" class="img">
+                    <img src="./assets/luxury/reparacion.jpg" alt="servicios-reparacion" class="img">
 
                     <div class="texto article__servicios__texto">
                         <h2 class="titulo">Reparación</h2>
@@ -131,7 +131,7 @@
                 </article>
 
                 <article class="article__servicios">
-                    <img src="./assets/luxury/cotizacion.jpg" alt="article__servicios" class="img">
+                    <img src="./assets/luxury/cotizacion.jpg" alt="servicios-cotizacion" class="img">
 
                     <div class="texto article__servicios__texto">
                         <h2 class="titulo">Cotización</h2>
@@ -150,13 +150,9 @@
 
             <!-- APERTURA SECTION CATALOGO -->
             <section class="section__catalogo">
-                <div class="banner">
-                    <img src="./assets/luxury/modelos.jpg" alt="banner" class="img catalogo__banner__img">
+                <img src="./assets/luxury/modelos.jpg" alt="banner" class="img">
 
-                    <h2 class="titulo catalogo__banner__titulo">
-                        NUESTROS MODELOS DESTACADOS
-                    </h2>
-                </div>
+                <h2 class="section__catalogo__titulo">NUESTROS MODELOS DESTACADOS</h2>
 
                 <div class="container__cards" id="catalogo">
                     <!-- MEDIANTE JS DESPLIEGO EL CATÁLOGO -->
@@ -186,17 +182,17 @@
                 <article class="sucursales__main" id="sucursalesMapas">
                     <div class="sucursales__buttons">
                         <button class="sucursales__button" id="concesionariaAudi">
-                            <img src="./assets/banderas/argentina.jpg" alt="foto button"
+                            <img src="./assets/banderas/argentina.jpg" alt="bandera-argentina"
                                 class="sucursales__bandera activo" id="banderaArgentina">
                         </button>
 
                         <button class="sucursales__button" id="concesionariaMaserati">
-                            <img src="./assets/banderas/italia.jpg" alt="foto button" class="sucursales__bandera "
+                            <img src="./assets/banderas/italia.jpg" alt="bandera-italia" class="sucursales__bandera "
                                 id="banderaItalia">
                         </button>
 
                         <button class="sucursales__button" id="concesionariaMcLaren">
-                            <img src="./assets/banderas/francia.jpg" alt="foto button" class="sucursales__bandera"
+                            <img src="./assets/banderas/francia.jpg" alt="bandera-francia" class="sucursales__bandera"
                                 id="banderaFrancia">
                         </button>
                     </div>
@@ -236,11 +232,16 @@
         </div>
 
         <div class="footer__redes">
-            <a href="https://www.instagram.com/audi/" target="_blank" class="bi bi-instagram"></a>
-            <a href="https://twitter.com/ScuderiaFerrari" target="_blank" class="bi bi-twitter-x"></a>
-            <a href="https://www.facebook.com/MercedesBenz" target="_blank" class="bi bi-facebook"></a>
-            <a href="https://www.tiktok.com/@astonmartin?lang=es" target="_blank" class="bi bi-tiktok"></a>
-            <a href="www.linkedin.com/in/ignaciorevainera" target="_blank" class="bi bi-linkedin"></a>
+            <a href="https://www.instagram.com/audi/" target="_blank" class="bi bi-instagram"
+                aria-label="instagram"></a>
+            <a href="https://twitter.com/ScuderiaFerrari" target="_blank" class="bi bi-twitter-x"
+                aria-label="twitter"></a>
+            <a href="https://www.facebook.com/MercedesBenz" target="_blank" class="bi bi-facebook"
+                aria-label="facebook"></a>
+            <a href="https://www.tiktok.com/@astonmartin?lang=es" target="_blank" class="bi bi-tiktok"
+                aria-label="tiktok"></a>
+            <a href="https://www.linkedin.com/in/ignaciorevainera" target="_blank" class="bi bi-linkedin"
+                aria-label="linkedin"></a>
         </div>
 
         <p class="footer__copyright">Copyright &copy; 2023 Ignacio Jesús Revainera</p>

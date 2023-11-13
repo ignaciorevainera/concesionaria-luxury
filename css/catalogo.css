@@ -1,3 +1,9 @@
+.section__catalogo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 #filtros {
     display: flex;
     flex-direction: column;
@@ -25,7 +31,7 @@
 @media only screen and (min-width: 768px) {
     .section__catalogo {
         display: grid;
-        grid-template-columns: 35% calc(100% - 35%);
+        grid-template-columns: 30% calc(100% - 30%);
     }
 
     .container__cards {

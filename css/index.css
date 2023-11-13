@@ -145,10 +145,6 @@
         flex-direction: row;
     }
 
-    .sucursales__banner__img {
-        max-height: initial;
-    }
-
     .sucursales__banner__texto {
         max-width: 50%;
     }

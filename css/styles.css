@@ -229,6 +229,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
 
     gap: 1rem;
+    padding: 0 1rem;
 }
 
 .card__container {
@@ -384,5 +385,11 @@ textarea {
         width: 100%;
         height: initial;
         border-radius: var(--border-radius);
+    }
+
+    .img:not(article .img) {
+
+        max-height: 50vh;
+
     }
 }

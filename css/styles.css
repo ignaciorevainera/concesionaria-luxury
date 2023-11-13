@@ -377,7 +377,7 @@ textarea {
     .contenedor {
         display: grid;
         place-content: center;
-        grid-template-columns: 70%;
+        grid-template-columns: 80%;
     }
 
     .img {

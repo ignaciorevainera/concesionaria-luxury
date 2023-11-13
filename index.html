@@ -44,182 +44,186 @@
     </header>
     <!-- CIERRE DEL HEADER -->
 
-    <!-- APERTURA DEL MAIN -->
-    <main class="main">
+    <div class="contenedor">
 
-        <!-- APERTURA SECTION CAROUSEL --> <!-- COMPONENTE DE BOOTSTRAP 2/2 -->
-        <section class="section__carousel">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button id="carouselIndicatorButton" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button id="carouselIndicatorButton" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button id="carouselIndicatorButton" type="button" data-bs-target="#carouselExampleCaptions"
-                        data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/carousel/carousel (1).jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="titulo">Elegancia</h5>
-                            <p class="parrafo">Donde la sofisticación y el lujo se fusionan en cada vehículo.</p>
+        <!-- APERTURA DEL MAIN -->
+        <main class="main">
+
+            <!-- APERTURA SECTION CAROUSEL --> <!-- COMPONENTE DE BOOTSTRAP 2/2 -->
+            <section class="section__carousel">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button id="carouselIndicatorButton" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button id="carouselIndicatorButton" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button id="carouselIndicatorButton" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/carousel/carousel (1).jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="titulo">Elegancia</h5>
+                                <p class="parrafo">Donde la sofisticación y el lujo se fusionan en cada vehículo.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel/carousel (2).jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="titulo">Tecnología</h5>
+                                <p class="parrafo">Experimenta el futuro de la conducción en el presente.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/carousel/carousel (3).jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="titulo">Eficiencia</h5>
+                                <p class="parrafo">Potencia sostenible y rendimiento excepcional en cada viaje.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/carousel/carousel (2).jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="titulo">Tecnología</h5>
-                            <p class="parrafo">Experimenta el futuro de la conducción en el presente.</p>
-                        </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="bi bi-caret-left-fill carousel__control__icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="bi bi-caret-right-fill carousel__control__icon" aria-hidden="true"></span>
+                        <span class="visually-hidden"></span>
+                    </button>
+                </div>
+            </section>
+            <!-- CIERRE SECTION CAROUSEL -->
+
+            <!-- APERTURA SECTION SERVICIOS -->
+            <section class="section__servicios">
+                <article class="article__servicios">
+                    <img src="./assets/luxury/service.jpg" alt="article__servicios" class="img">
+
+                    <div class="texto article__servicios__texto">
+                        <h2 class="titulo">Service</h2>
+                        <p class="parrafo">
+                            Mantenemos tu vehículo de lujo en su mejor estado con nuestro servicio de mantenimiento de
+                            alta calidad. Nuestros técnicos certificados se encargan de todo, desde inspecciones
+                            minuciosas hasta cambios de aceite y reparaciones si es necesario.
+                        </p>
+                        <a class="button" href="./html/servicios.html" target="_blank" rel="noopener noreferrer">Ver
+                            todos los servicios</a>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./assets/carousel/carousel (3).jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5 class="titulo">Eficiencia</h5>
-                            <p class="parrafo">Potencia sostenible y rendimiento excepcional en cada viaje.</p>
-                        </div>
+                </article>
+
+                <article class="article__servicios">
+                    <img src="./assets/luxury/reparacion.jpg" alt="article__servicios" class="img">
+
+                    <div class="texto article__servicios__texto">
+                        <h2 class="titulo">Reparación</h2>
+                        <p class="parrafo">
+                            Nuestro equipo de expertos en reparaciones está preparado para abordar cualquier problema
+                            que pueda surgir en tu vehículo de lujo, ya sean reparaciones mecánicas o daños estéticos.
+                            Utilizamos piezas de calidad y técnicas avanzadas para restaurar tu vehículo a su estado
+                            original.
+                        </p>
+                        <a class="button" href="./html/servicios.html" target="_blank" rel="noopener noreferrer">Ver
+                            todos los servicios</a>
+                    </div>
+                </article>
+
+                <article class="article__servicios">
+                    <img src="./assets/luxury/cotizacion.jpg" alt="article__servicios" class="img">
+
+                    <div class="texto article__servicios__texto">
+                        <h2 class="titulo">Cotización</h2>
+                        <p class="parrafo">
+                            Facilitamos la adquisición de tu vehículo de lujo con opciones de financiamiento
+                            personalizadas que se ajustan a tus necesidades y presupuesto. Nuestro equipo de asesores de
+                            financiamiento te ayudará a encontrar la mejor solución financiera, ofreciendo tasas
+                            competitivas y plazos flexibles. Hacemos que la experiencia de lujo sea accesible.
+                        </p>
+                        <a class="button" href="./html/servicios.html" target="_blank" rel="noopener noreferrer">Ver
+                            todos los servicios</a>
+                    </div>
+                </article>
+            </section>
+            <!-- CIERRE SECTION SERVICIOS -->
+
+            <!-- APERTURA SECTION CATALOGO -->
+            <section class="section__catalogo">
+                <div class="banner">
+                    <img src="./assets/luxury/modelos.jpg" alt="banner" class="img catalogo__banner__img">
+
+                    <h2 class="titulo catalogo__banner__titulo">
+                        NUESTROS MODELOS DESTACADOS
+                    </h2>
+                </div>
+
+                <div class="container__cards" id="catalogo">
+                    <!-- MEDIANTE JS DESPLIEGO EL CATÁLOGO -->
+                </div>
+            </section>
+            <!-- CIERRE SECTION CATALOGO -->
+
+            <!-- APERTURA SECTION SUCURSALES -->
+            <section class="section__sucursales">
+                <div class="banner sucursales__banner">
+                    <img src="./assets/luxury/encuentranos.jpg" alt="sucursales" class="img sucursales__banner__img">
+
+                    <div class="texto sucursales__banner__texto">
+                        <h2 class="titulo">Encuéntranos</h2>
+                        <p class="parrafo">
+                            Nuestras sucursales están estratégicamente ubicadas en diversos lugares del mundo, para que
+                            tú y tus sueños de un vehículo de lujo no tengan fronteras. Desde elegantes salas de
+                            exhibición en ciudades icónicas hasta ubicaciones exclusivas en destinos de renombre,
+                            nuestras concesionarias se extienden por todo el planeta.
+                        </p>
+                        <a class="button" href="#sucursalesMapas">
+                            Elije el país que más te guste, ahí estaremos
+                        </a>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="bi bi-caret-left-fill carousel__control__icon" aria-hidden="true"></span>
-                    <span class="visually-hidden"></span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="bi bi-caret-right-fill carousel__control__icon" aria-hidden="true"></span>
-                    <span class="visually-hidden"></span>
-                </button>
-            </div>
-        </section>
-        <!-- CIERRE SECTION CAROUSEL -->
 
-        <!-- APERTURA SECTION SERVICIOS -->
-        <section class="section__servicios">
-            <article class="article__servicios">
-                <img src="./assets/luxury/service.jpg" alt="article__servicios" class="img">
+                <div class="sucursales__main" id="sucursalesMapas">
+                    <div class="sucursales__buttons">
+                        <button class="sucursales__button" id="concesionariaAudi">
+                            <img src="./assets/banderas/argentina.jpg" alt="foto button"
+                                class="sucursales__bandera activo" id="banderaArgentina">
+                        </button>
 
-                <div class="texto article__servicios__texto">
-                    <h2 class="titulo">Service</h2>
-                    <p class="parrafo">
-                        Mantenemos tu vehículo de lujo en su mejor estado con nuestro servicio de mantenimiento de
-                        alta calidad. Nuestros técnicos certificados se encargan de todo, desde inspecciones
-                        minuciosas hasta cambios de aceite y reparaciones si es necesario.
-                    </p>
-                    <a class="button" href="./html/servicios.html" target="_blank" rel="noopener noreferrer">Ver
-                        todos los servicios</a>
+                        <button class="sucursales__button" id="concesionariaMaserati">
+                            <img src="./assets/banderas/italia.jpg" alt="foto button" class="sucursales__bandera "
+                                id="banderaItalia">
+                        </button>
+
+                        <button class="sucursales__button" id="concesionariaMcLaren">
+                            <img src="./assets/banderas/francia.jpg" alt="foto button" class="sucursales__bandera"
+                                id="banderaFrancia">
+                        </button>
+                    </div>
+
+                    <iframe class="sucursales__mapa visible" id="mapaConcesionariaAudi"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.522683648461!2d-58.432428699999996!3d-34.61622949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4390eb1209%3A0x1f3b420ef2d94aab!2sAv.%20Rivadavia%204751%2C%20C1424CEC%20CABA!5e0!3m2!1ses-419!2sar!4v1698873170851!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <iframe class="sucursales__mapa" id="mapaConcesionariaMaserati"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1484.5709059574972!2d12.49131154241204!3d41.91131008135689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61068559435f%3A0xc2c218b0b50e79a0!2sMaserati!5e0!3m2!1ses-419!2sar!4v1698793904162!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                    <iframe class="sucursales__mapa" id="mapaConcesionariaMcLaren"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41969.82159322883!2d2.0570187486328178!3d48.89416739999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67b7895c9b7b1%3A0xe684f16e2c618115!2sMcLaren%20Paris!5e0!3m2!1ses!2sar!4v1698794020545!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-            </article>
+            </section>
+            <!-- CIERRE SECTION SUCURSALES -->
 
-            <article class="article__servicios">
-                <img src="./assets/luxury/reparacion.jpg" alt="article__servicios" class="img">
+        </main>
+        <!-- CIERRE DEL MAIN -->
 
-                <div class="texto article__servicios__texto">
-                    <h2 class="titulo">Reparación</h2>
-                    <p class="parrafo">
-                        Nuestro equipo de expertos en reparaciones está preparado para abordar cualquier problema
-                        que pueda surgir en tu vehículo de lujo, ya sean reparaciones mecánicas o daños estéticos.
-                        Utilizamos piezas de calidad y técnicas avanzadas para restaurar tu vehículo a su estado
-                        original.
-                    </p>
-                    <a class="button" href="./html/servicios.html" target="_blank" rel="noopener noreferrer">Ver
-                        todos los servicios</a>
-                </div>
-            </article>
-
-            <article class="article__servicios">
-                <img src="./assets/luxury/cotizacion.jpg" alt="article__servicios" class="img">
-
-                <div class="texto article__servicios__texto">
-                    <h2 class="titulo">Cotización</h2>
-                    <p class="parrafo">
-                        Facilitamos la adquisición de tu vehículo de lujo con opciones de financiamiento
-                        personalizadas que se ajustan a tus necesidades y presupuesto. Nuestro equipo de asesores de
-                        financiamiento te ayudará a encontrar la mejor solución financiera, ofreciendo tasas
-                        competitivas y plazos flexibles. Hacemos que la experiencia de lujo sea accesible.
-                    </p>
-                    <a class="button" href="./html/servicios.html" target="_blank" rel="noopener noreferrer">Ver
-                        todos los servicios</a>
-                </div>
-            </article>
-        </section>
-        <!-- CIERRE SECTION SERVICIOS -->
-
-        <!-- APERTURA SECTION CATALOGO -->
-        <section class="section__catalogo">
-            <div class="banner">
-                <img src="./assets/luxury/modelos.jpg" alt="banner" class="img catalogo__banner__img">
-
-                <h2 class="titulo catalogo__banner__titulo">
-                    NUESTROS MODELOS DESTACADOS
-                </h2>
-            </div>
-
-            <div class="container__cards" id="catalogo">
-                <!-- MEDIANTE JS DESPLIEGO EL CATÁLOGO -->
-            </div>
-        </section>
-        <!-- CIERRE SECTION CATALOGO -->
-
-        <!-- APERTURA SECTION SUCURSALES -->
-        <section class="section__sucursales">
-            <div class="banner sucursales__banner">
-                <img src="./assets/luxury/encuentranos.jpg" alt="sucursales" class="img sucursales__banner__img">
-
-                <div class="texto sucursales__banner__texto">
-                    <h2 class="titulo">Encuéntranos</h2>
-                    <p class="parrafo">
-                        Nuestras sucursales están estratégicamente ubicadas en diversos lugares del mundo, para que
-                        tú y tus sueños de un vehículo de lujo no tengan fronteras. Desde elegantes salas de
-                        exhibición en ciudades icónicas hasta ubicaciones exclusivas en destinos de renombre,
-                        nuestras concesionarias se extienden por todo el planeta.
-                    </p>
-                    <a class="button" href="#sucursalesMapas">
-                        Elije el país que más te guste, ahí estaremos
-                    </a>
-                </div>
-            </div>
-
-            <div class="sucursales__main" id="sucursalesMapas">
-                <div class="sucursales__buttons">
-                    <button class="sucursales__button" id="concesionariaAudi">
-                        <img src="./assets/banderas/argentina.jpg" alt="foto button" class="sucursales__bandera activo"
-                            id="banderaArgentina">
-                    </button>
-
-                    <button class="sucursales__button" id="concesionariaMaserati">
-                        <img src="./assets/banderas/italia.jpg" alt="foto button" class="sucursales__bandera "
-                            id="banderaItalia">
-                    </button>
-
-                    <button class="sucursales__button" id="concesionariaMcLaren">
-                        <img src="./assets/banderas/francia.jpg" alt="foto button" class="sucursales__bandera"
-                            id="banderaFrancia">
-                    </button>
-                </div>
-
-                <iframe class="sucursales__mapa visible" id="mapaConcesionariaAudi"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.522683648461!2d-58.432428699999996!3d-34.61622949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4390eb1209%3A0x1f3b420ef2d94aab!2sAv.%20Rivadavia%204751%2C%20C1424CEC%20CABA!5e0!3m2!1ses-419!2sar!4v1698873170851!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                <iframe class="sucursales__mapa" id="mapaConcesionariaMaserati"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1484.5709059574972!2d12.49131154241204!3d41.91131008135689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61068559435f%3A0xc2c218b0b50e79a0!2sMaserati!5e0!3m2!1ses-419!2sar!4v1698793904162!5m2!1ses-419!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-
-                <iframe class="sucursales__mapa" id="mapaConcesionariaMcLaren"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41969.82159322883!2d2.0570187486328178!3d48.89416739999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67b7895c9b7b1%3A0xe684f16e2c618115!2sMcLaren%20Paris!5e0!3m2!1ses!2sar!4v1698794020545!5m2!1ses!2sar"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-        <!-- CIERRE SECTION SUCURSALES -->
-
-    </main>
-    <!-- CIERRE DEL MAIN -->
+    </div>
 
     <!-- APERTURA DEL FOOTER -->
     <footer class="footer">

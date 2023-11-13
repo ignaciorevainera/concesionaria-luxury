@@ -36,7 +36,21 @@
     font-size: var(--font-size-fluid-2);
 }
 
+/* SECTION SERVICIOS */
+
+.section__servicios {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 /* SECTION CATÁLOGO */
+
+.section__catalogo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 .catalogo__banner__titulo {
     text-align: center;
@@ -44,6 +58,12 @@
 }
 
 /* SECTION SUCURSALES */
+
+.section__sucursales {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 .sucursales__main {
     display: flex;
@@ -63,6 +83,7 @@
 }
 
 .sucursales__bandera {
+    user-select: none;
     height: 100%;
     width: 50%;
     transform: skew(-15deg);
@@ -82,6 +103,7 @@
 }
 
 .sucursales__mapa {
+    user-select: none;
     width: 100%;
     height: 50vh;
     display: none;
@@ -99,6 +121,13 @@
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 768px) {
+
+    .carousel-inner,
+    .carousel-item,
+    .d-block {
+        border-radius: var(--border-radius);
+    }
+
     .article__servicios {
         display: flex;
         flex-direction: row;

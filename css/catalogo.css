@@ -25,7 +25,7 @@
 @media only screen and (min-width: 768px) {
     .section__catalogo {
         display: grid;
-        grid-template-columns: 25% calc(100% - 25%);
+        grid-template-columns: 35% calc(100% - 35%);
     }
 
     .container__cards {

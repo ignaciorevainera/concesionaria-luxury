@@ -32,18 +32,3 @@
 .faqs__footer * {
     text-align: center;
 }
-
-/* MEDIA QUERIES */
-
-@media only screen and (min-width: 768px) {
-    .faqs__section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .accordion {
-        width: 80%;
-    }
-}

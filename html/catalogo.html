@@ -44,48 +44,55 @@
     </header>
     <!-- CIERRE DEL HEADER -->
 
-    <!-- APERTURA DEL MAIN -->
-    <main class="main">
-        <section class="banner">
-            <img src="../assets/luxury/catalogo.jpg" alt="faqs-banner" class="img">
+    <div class="contenedor">
 
-            <div class="texto">
-                <h2 class="titulo">Catalogo</h2>
-                <p class="parrafo">
-                    Bienvenido a la joya de la corona de Luxury: nuestra exclusiva página de catálogo de vehículos.
-                    Aquí, te invitamos a explorar nuestra impresionante colección de automóviles de lujo cuidadosamente
-                    seleccionados. Cada vehículo es una obra maestra de diseño, innovación y rendimiento. Desde
-                    elegantes sedanes hasta potentes SUVs, encontrarás la excelencia en cada detalle. Descubre la pasión
-                    por la conducción y la elegancia que solo Luxury puede ofrecer. Tu próxima aventura automovilística
-                    comienza aquí.
-                </p>
+        <!-- APERTURA DEL MAIN -->
+        <main class="main">
+            <section class="banner">
+                <img src="../assets/luxury/catalogo.jpg" alt="faqs-banner" class="img">
+
+                <div class="texto">
+                    <h2 class="titulo">Catalogo</h2>
+                    <p class="parrafo">
+                        Bienvenido a la joya de la corona de Luxury: nuestra exclusiva página de catálogo de vehículos.
+                        Aquí, te invitamos a explorar nuestra impresionante colección de automóviles de lujo
+                        cuidadosamente
+                        seleccionados. Cada vehículo es una obra maestra de diseño, innovación y rendimiento. Desde
+                        elegantes sedanes hasta potentes SUVs, encontrarás la excelencia en cada detalle. Descubre la
+                        pasión
+                        por la conducción y la elegancia que solo Luxury puede ofrecer. Tu próxima aventura
+                        automovilística
+                        comienza aquí.
+                    </p>
+                </div>
+            </section>
+
+            <div class="section__catalogo">
+                <section id="filtros">
+                    <input class="filtro" type="radio" name="filtros" id="todos" value="todos" checked>
+                    <label class="button" for="todos">Todos</label>
+                    <input class="filtro" type="radio" name="filtros" id="convertible" value="Convertible">
+                    <label class="button" for="convertible">Convertible</label>
+                    <input class="filtro" type="radio" name="filtros" id="coupe" value="Coupé">
+                    <label class="button" for="coupe">Coupé</label>
+                    <input class="filtro" type="radio" name="filtros" id="sedan" value="Sedán">
+                    <label class="button" for="sedan">Sedán</label>
+                    <input class="filtro" type="radio" name="filtros" id="hatchback" value="Hatchback">
+                    <label class="button" for="hatchback">Hatchback</label>
+                    <input class="filtro" type="radio" name="filtros" id="suv" value="SUV">
+                    <label class="button" for="suv">SUV</label>
+                    <input class="filtro" type="radio" name="filtros" id="pickUp" value="Pick Up">
+                    <label class="button" for="pickUp">Pick Up</label>
+                </section>
+
+                <section class="container__cards" id="catalogo">
+                    <!-- MEDIANTE JS DESPLIEGO EL CATÁLOGO -->
+                </section>
             </div>
-        </section>
+        </main>
+        <!-- CIERRE DEL MAIN -->
 
-        <div class="section__catalogo">
-            <section id="filtros">
-                <input class="filtro" type="radio" name="filtros" id="todos" value="todos" checked>
-                <label class="button" for="todos">Todos</label>
-                <input class="filtro" type="radio" name="filtros" id="convertible" value="Convertible">
-                <label class="button" for="convertible">Convertible</label>
-                <input class="filtro" type="radio" name="filtros" id="coupe" value="Coupé">
-                <label class="button" for="coupe">Coupé</label>
-                <input class="filtro" type="radio" name="filtros" id="sedan" value="Sedán">
-                <label class="button" for="sedan">Sedán</label>
-                <input class="filtro" type="radio" name="filtros" id="hatchback" value="Hatchback">
-                <label class="button" for="hatchback">Hatchback</label>
-                <input class="filtro" type="radio" name="filtros" id="suv" value="SUV">
-                <label class="button" for="suv">SUV</label>
-                <input class="filtro" type="radio" name="filtros" id="pickUp" value="Pick Up">
-                <label class="button" for="pickUp">Pick Up</label>
-            </section>
-
-            <section class="container__cards" id="catalogo">
-                <!-- MEDIANTE JS DESPLIEGO EL CATÁLOGO -->
-            </section>
-        </div>
-    </main>
-    <!-- CIERRE DEL MAIN -->
+    </div>
 
     <!-- APERTURA DEL FOOTER -->
     <footer class="footer">

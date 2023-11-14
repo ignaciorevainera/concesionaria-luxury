@@ -3,6 +3,7 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
+    --green: #ACEB1A;
 
     --black-100: #171717;
     --black-200: #141414;
@@ -44,7 +45,7 @@
 
 *::selection {
     color: var(--black);
-    background-color: yellowgreen;
+    background-color: var(--green);
 }
 
 body {

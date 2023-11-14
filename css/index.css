@@ -117,7 +117,8 @@
 
     .carousel-inner,
     .carousel-item,
-    .d-block {
+    .d-block,
+    .sucursales__mapa {
         border-radius: var(--border-radius);
     }
 
@@ -126,12 +127,9 @@
         flex-direction: row;
     }
 
-    .article__servicios__texto {
+    .article__servicios__texto,
+    .sucursales__banner__texto {
         max-width: 50%;
-    }
-
-    .sucursales__main {
-        flex-direction: row;
     }
 
     .sucursales__banner {
@@ -139,8 +137,8 @@
         flex-direction: row;
     }
 
-    .sucursales__banner__texto {
-        max-width: 50%;
+    .sucursales__main {
+        flex-direction: row;
     }
 
     .sucursales__buttons {
@@ -149,9 +147,5 @@
 
     .sucursales__bandera {
         width: 100%;
-    }
-
-    .sucursales__mapa {
-        border-radius: var(--border-radius);
     }
 }

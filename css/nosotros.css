@@ -31,14 +31,6 @@ ul li {
         grid-template-columns: 30% calc(100% - 30%);
     }
 
-    .list-group {
-        padding: 0 1rem;
-    }
-
-    .nosotros__section__articles {
-        padding: 0 1rem 0 0;
-    }
-
     .nosotros__article__img {
         border-radius: var(--border-radius);
     }

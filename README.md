@@ -6,7 +6,7 @@
 Somos una concesionaria comprometida con la excelencia en vehículos de lujo. Ofrecemos una amplia gama de servicios que van desde la venta de vehículos nuevos hasta reparaciones y personalización.
 
 ## Historia
-Luxury fue fundada en el año XXXX con la visión de proporcionar a nuestros clientes experiencias automovilísticas excepcionales. Desde entonces, nos hemos dedicado a ofrecer vehículos de lujo de las marcas más prestigiosas.
+Luxury fue fundada en el año 1922 con la visión de proporcionar a nuestros clientes experiencias automovilísticas excepcionales. Desde entonces, nos hemos dedicado a ofrecer vehículos de lujo de las marcas más prestigiosas.
 
 ## Nuestro Equipo
 En Luxury, contamos con un equipo apasionado y experto dedicado a brindar un servicio excepcional. Desde nuestros asesores de ventas hasta nuestros técnicos de servicio, cada miembro del equipo está comprometido con la satisfacción del cliente.
@@ -28,12 +28,11 @@ Consulta nuestra sección de Preguntas Frecuentes para obtener respuestas a las 
 ## Contacto
 Para cualquier consulta, no dude en ponerse en contacto con nosotros. Estamos aquí para ayudarle a encontrar el vehículo perfecto y brindarle un servicio excepcional.
 
+## Enlaces
+- **Repositorio de GitHub:** [Concesionaria Luxury en GitHub](https://github.com/ignaciorevainera/concesionariaLuxury)
+- **Sitio Web (Deploy):** [Concesionaria Luxury - Sitio Web](https://ignaciorevainera.github.io/concesionariaLuxury/)
+
 ¡Gracias por elegir Luxury para todas sus necesidades automotrices!
 
 ---
 Luxury Concesionaria | ¡Viviendo la Experiencia del Lujo!
-
-# Github
-
-Repositorio: https://github.com/ignaciorevainera/concesionariaLuxury
-Deploy: https://ignaciorevainera.github.io/concesionariaLuxury/

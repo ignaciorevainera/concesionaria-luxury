@@ -96,7 +96,7 @@ body {
 
 .nav__link {
     color: var(--white);
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .nav__toggler:hover {

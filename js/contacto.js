@@ -6,7 +6,7 @@ const inputNombre = document.getElementById("nombre")
 const inputApellido = document.getElementById("apellido")
 const inputMensaje = document.getElementById("mensaje")
 
-const resultado = document.querySelector(".citas__section")
+const resultado = document.querySelector(".section__citas")
 
 function crearCita(datos) {
     return `
@@ -48,6 +48,7 @@ function obtenerDatos(event) {
     citas.unshift(new Cita(servicio, email, nombre, apellido, mensaje))
     mostrarCita(citas)
 }
+
 
 function iniciar() {
     form.addEventListener("submit", obtenerDatos)

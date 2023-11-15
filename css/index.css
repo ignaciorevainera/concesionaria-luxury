@@ -26,6 +26,10 @@
     top: 70%;
 }
 
+.carousel__control__icon {
+    font-size: var(--font-size-fluid-2);
+}
+
 /* SECTION SERVICIOS */
 
 .section__servicios {

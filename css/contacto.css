@@ -1,5 +1,5 @@
-.form__section,
-.citas__section {
+.section__form,
+.section__citas {
     display: flex;
     flex-direction: column;
     justify-content: center;

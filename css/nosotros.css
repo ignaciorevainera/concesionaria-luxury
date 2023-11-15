@@ -1,5 +1,5 @@
-.nosotros__section,
-.nosotros__article {
+.section__nosotros,
+.article__nosotros {
     display: flex;
     flex-direction: column;
 }
@@ -26,12 +26,12 @@ ul li {
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 768px) {
-    .nosotros__section {
+    .section__nosotros {
         display: grid;
         grid-template-columns: 30% calc(100% - 30%);
     }
 
-    .nosotros__article__img {
+    .article__nosotros__img {
         border-radius: var(--border-radius);
     }
 }

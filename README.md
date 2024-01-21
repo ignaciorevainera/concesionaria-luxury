@@ -1,38 +1,64 @@
 # Concesionaria Luxury
 
-¡Bienvenido a la Concesionaria Luxury!
+¡Bienvenido al repositorio de Concesionaria Luxury! Este proyecto es una página web desarrollada con HTML, CSS, Bootstrap y JavaScript para simular el sitio web de una concesionaria de autos de lujo.
 
-## Acerca de Nosotros
-Somos una concesionaria comprometida con la excelencia en vehículos de lujo. Ofrecemos una amplia gama de servicios que van desde la venta de vehículos nuevos hasta reparaciones y personalización.
+![Mockup Laptop 1](assets/mockups/mockup%20(1).jpg)
 
-## Historia
-Luxury fue fundada en el año 1922 con la visión de proporcionar a nuestros clientes experiencias automovilísticas excepcionales. Desde entonces, nos hemos dedicado a ofrecer vehículos de lujo de las marcas más prestigiosas.
+![Mockup Laptop 2](assets/mockups/mockup%20(4).jpg)
 
-## Nuestro Equipo
-En Luxury, contamos con un equipo apasionado y experto dedicado a brindar un servicio excepcional. Desde nuestros asesores de ventas hasta nuestros técnicos de servicio, cada miembro del equipo está comprometido con la satisfacción del cliente.
+![Mockup Tablet](assets/mockups/mockup%20(3).jpg)
 
-## Servicios
-En Luxury, ofrecemos una variedad de servicios para satisfacer todas las necesidades automotrices de nuestros clientes:
+![Mockup Celular](assets/mockups/mockup%20(2).jpg)
 
-- Venta de Vehículos
-- Servicio de Reparación y Mantenimiento
-- Personalización de Vehículos
-- Venta de Repuestos y Accesorios
+## Descripción del Proyecto
 
-## Catálogo de Vehículos
-Explore nuestro exclusivo catálogo de vehículos de lujo, desde elegantes sedanes hasta potentes SUVs. Cada vehículo está cuidadosamente seleccionado para ofrecer la máxima calidad y rendimiento.
+Concesionaria Luxury es una página web que proporciona a los usuarios una experiencia virtual de exploración de autos de lujo. Desde la comodidad de su hogar, los usuarios pueden navegar por una amplia gama de vehículos, obtener detalles específicos sobre cada modelo y ponerse en contacto con la concesionaria para obtener más información o programar una prueba de manejo.
 
-## Preguntas Frecuentes
-Consulta nuestra sección de Preguntas Frecuentes para obtener respuestas a las dudas comunes sobre nuestros servicios, políticas y más.
+## Características Principales
 
-## Contacto
-Para cualquier consulta, no dude en ponerse en contacto con nosotros. Estamos aquí para ayudarle a encontrar el vehículo perfecto y brindarle un servicio excepcional.
+- **Diseño Responsivo:** La página está diseñada para ser accesible y atractiva en dispositivos de diferentes tamaños, desde computadoras de escritorio hasta dispositivos móviles.
+
+- **Catálogo de Autos:** Los usuarios pueden explorar el catálogo completo de vehículos disponibles, con imágenes, especificaciones y precios.
+
+- **Formulario de Contacto:** Se incluye un formulario de contacto que permite a los usuarios enviar consultas o solicitar información adicional.
+
+- **JavaScript Interactivo:** La página utiliza JavaScript para proporcionar una experiencia de usuario interactiva, como la visualización de imágenes de autos en un carrusel o la aplicación de un sistema de filtros en el catálogo.
+
+- **Estilo con Bootstrap:** Se ha utilizado Bootstrap para agilizar el desarrollo y garantizar un diseño moderno y profesional.
+
+- **Accesibilidad:** La página sigue las pautas de accesibilidad web (WCAG) para garantizar que sea accesible para personas con discapacidades, proporcionando alternativas textuales y permitiendo la navegación mediante teclado.
+
+- **Velocidad de Carga Optimizada:** La velocidad de carga de la página se ha optimizado para reducir los tiempos de espera, utilizando técnicas como la optimización de imágenes y el uso eficiente de recursos.
+
+- **Diseño Atractivo y Moderno:** El diseño de la página es atractivo y moderno, reflejando la identidad de la marca. Un diseño limpio y visualmente agradable mejora la experiencia del usuario.
+
+## Tecnologías Utilizadas
+
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+
+## Instrucciones de Uso
+
+1. Clona este repositorio: `git clone https://github.com/ignaciorevainera/concesionariaLuxury.git`
+2. Abre el archivo `index.html` en tu navegador web para acceder a la página principal.
+
+## Contribuciones
+
+Si deseas contribuir al desarrollo de Concesionaria Luxury, sigue estos pasos:
+
+1. Realiza un fork del repositorio.
+2. Crea una nueva rama para tus cambios: `git checkout -b feature/nueva-caracteristica`.
+3. Realiza tus modificaciones y realiza commits: `git commit -m 'Añade nueva característica'`.
+4. Sube tus cambios a tu repositorio: `git push origin feature/nueva-caracteristica`.
+5. Abre un pull request en el repositorio original.
 
 ## Enlaces
-- **Repositorio de GitHub:** [Concesionaria Luxury en GitHub](https://github.com/ignaciorevainera/concesionariaLuxury)
-- **Sitio Web (Deploy):** [Concesionaria Luxury - Sitio Web](https://ignaciorevainera.github.io/concesionariaLuxury/)
 
-¡Gracias por elegir Luxury para todas sus necesidades automotrices!
+- Repositorio de GitHub: [Concesionaria Luxury en GitHub](https://github.com/ignaciorevainera/concesionariaLuxury)
+- Sitio Web (Deploy): [Concesionaria Luxury - Sitio Web](https://ignaciorevainera.github.io/concesionariaLuxury/)
 
----
-Luxury Concesionaria | ¡Viviendo la Experiencia del Lujo!
+## Contacto
+
+Para cualquier consulta, no dude en ponerse en contacto a través de mi [perfil de LinkedIn](https://www.linkedin.com/in/ignaciorevainera/).

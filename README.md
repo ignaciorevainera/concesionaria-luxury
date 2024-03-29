@@ -2,13 +2,9 @@
 
 ¡Bienvenido al repositorio de Concesionaria Luxury! Este proyecto es una página web desarrollada con HTML, CSS, Bootstrap y JavaScript para simular el sitio web de una concesionaria de autos de lujo.
 
-![Mockup Laptop 1](assets/mockups/mockup%20(1).jpg)
-
-![Mockup Laptop 2](assets/mockups/mockup%20(4).jpg)
-
-![Mockup Tablet](assets/mockups/mockup%20(3).jpg)
-
-![Mockup Celular](assets/mockups/mockup%20(2).jpg)
+![11shots_so](https://github.com/ignaciorevainera/concesionaria-luxury/assets/137783616/2ca6cd08-fc51-4a8a-83fc-7c5899544fe6)
+![103shots_so](https://github.com/ignaciorevainera/concesionaria-luxury/assets/137783616/738bd67f-8691-4bae-9736-4cc06959714e)
+![458shots_so](https://github.com/ignaciorevainera/concesionaria-luxury/assets/137783616/017c4bae-ecc6-48a9-87fa-92db75e3ad3a)
 
 ## Descripción del Proyecto
 
